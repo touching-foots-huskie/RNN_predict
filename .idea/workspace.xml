@@ -1,0 +1,835 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="b5ff450a-a5c3-4687-9ae2-f50b587a45a5" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data.mat" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dense.h5" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/model.h5" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/data.mat" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/data_1.mat" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/dataset/realData/01.mat" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/dataset/realData/02.mat" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/dataset/trainX_1000_1_rgs.npy" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/dataset/trainX_1000_1_sin.npy" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/dataset/trainX_200_1.npy" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/dataset/trainX_200_1_rgs.npy" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/dataset/trainX_200_2.npy" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/dataset/trainY_1000_1_rgs.npy" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/dataset/trainY_1000_1_sin.npy" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/dataset/trainY_200_1.npy" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/dataset/trainY_200_1_rgs.npy" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/dataset/trainY_200_2.npy" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/dataset/validationX_30_1.npy" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/dataset/validationX_30_1_rgs.npy" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/dataset/validationX_30_1_sin.npy" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/dataset/validationX_30_2.npy" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/dataset/validationY_30_1.npy" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/dataset/validationY_30_1_rgs.npy" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/dataset/validationY_30_1_sin.npy" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/dataset/validationY_30_2.npy" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/signal_data/baseline.slx" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/signal_data/baseline.slx.autosave" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/signal_data/out_train_rgs.mat" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/signal_data/out_train_sin.mat" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/signal_data/out_val_rgs.mat" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/signal_data/out_val_sin.mat" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/signal_data/plant.slx" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/signal_data/train_rgs.mat" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/signal_data/train_sin.mat" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/signal_data/val_rgs.mat" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/signal_data/val_sin.mat" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/train_log/WRNN.data-00000-of-00001" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/train_log/WRNN.index" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/train_log/WRNN.meta" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/train_log/typ_pre_cn_1_plant1_1_2_0_2.data-00000-of-00001" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/train_log/typ_pre_cn_1_plant1_1_2_0_2.index" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/train_log/typ_pre_cn_1_plant1_1_2_0_2.meta" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/train_log/typ_pre_cn_1_plant1_2_3_2_3.data-00000-of-00001" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/train_log/typ_pre_cn_1_plant1_2_3_2_3.index" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/train_log/typ_pre_cn_1_plant1_2_3_2_3.meta" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/train_log/typ_pre_cn_1_plant1_2_3_3_0.data-00000-of-00001" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/train_log/typ_pre_cn_1_plant1_2_3_3_0.index" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/train_log/typ_pre_cn_1_plant1_2_3_3_0.meta" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/train_log/typ_pre_cn_1_plant1_3_2_2_3.data-00000-of-00001" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/train_log/typ_pre_cn_1_plant1_3_2_2_3.index" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/train_log/typ_pre_cn_1_plant1_3_2_2_3.meta" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/train_log/typ_pre_cn_1_plant2_1_0_0_2.data-00000-of-00001" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/train_log/typ_pre_cn_1_plant2_1_0_0_2.index" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/train_log/typ_pre_cn_1_plant2_1_0_0_2.meta" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/train_log/typ_pre_cn_1_plant2_1_2_0_2.data-00000-of-00001" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/train_log/typ_pre_cn_1_plant2_1_2_0_2.index" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/train_log/typ_pre_cn_1_plant2_1_2_0_2.meta" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/train_log/typ_pre_cn_1_plant2_1_2_1_2.data-00000-of-00001" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/train_log/typ_pre_cn_1_plant2_1_2_1_2.index" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/train_log/typ_pre_cn_1_plant2_1_2_1_2.meta" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/train_log/typ_pre_cn_4_plant2_1_2_1_2.data-00000-of-00001" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/train_log/typ_pre_cn_4_plant2_1_2_1_2.index" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/train_log/typ_pre_cn_4_plant2_1_2_1_2.meta" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/train_log/typ_rnn_cn_1_plant1_2_3_2_3.data-00000-of-00001" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/train_log/typ_rnn_cn_1_plant1_2_3_2_3.index" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/train_log/typ_rnn_cn_1_plant1_2_3_2_3.meta" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/train_log/WRNN.data-00000-of-00001" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/train_log/WRNN.index" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/train_log/WRNN.meta" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/train_log/model.data-00000-of-00001" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/train_log/model.index" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/train_log/model.meta" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/train_log/pre_WRNN.data-00000-of-00001" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/train_log/pre_WRNN.index" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/train_log/pre_WRNN.meta" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/train_log/pre_WRNN_v2.data-00000-of-00001" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/train_log/pre_WRNN_v2.index" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/train_log/pre_WRNN_v2.meta" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/RNN_Predict.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/dictionaries/saturn.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Result_compare.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WRNN.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dense.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gen_motor_data.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/model.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plant.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pre_WRNN.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pre_WRNN_v2.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/read_data.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shampoo-sales.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Models.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/app_funcs.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/core_nn.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/data_process.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/deep_rnn.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/plant.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/signal_data/Plant.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/signal_data/Reverse.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/signal_data/data_gen.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/signal_data/init.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/signal_data/motor_data_gen.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/signal_data/rand_one.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/signal_data/sin_data_gen.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/signal_data/xy_distribution.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/train_log/checkpoint" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tf_model.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/train_log/checkpoint" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wavelet.py" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="main.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="704">
+              <caret line="65" column="64" lean-forward="true" selection-start-line="65" selection-start-column="64" selection-end-line="65" selection-end-column="64" />
+              <folding>
+                <element signature="e#112#135#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="core_nn.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/core_nn.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="432">
+              <caret line="51" column="15" lean-forward="true" selection-start-line="51" selection-start-column="15" selection-end-line="51" selection-end-column="15" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="plant.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/plant.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-2208">
+              <caret line="40" column="34" lean-forward="true" selection-start-line="40" selection-start-column="34" selection-end-line="40" selection-end-column="34" />
+              <folding>
+                <element signature="e#108#126#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Models.py" pinned="false" current-in-tab="true">
+        <entry file="file:///mnt/storage/codes/Harvey/RNN_Predict/src/Models.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="32">
+              <caret line="242" column="65" lean-forward="true" selection-start-line="242" selection-start-column="65" selection-end-line="242" selection-end-column="65" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="app_funcs.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/app_funcs.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="112">
+              <caret line="29" column="5" lean-forward="false" selection-start-line="29" selection-start-column="5" selection-end-line="29" selection-end-column="5" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="WRNN.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/WRNN.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="288">
+              <caret line="118" column="4" lean-forward="false" selection-start-line="118" selection-start-column="4" selection-end-line="123" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>batch_size</find>
+      <find>mp</find>
+      <find>sequence_data_v2</find>
+      <find>self.Xp</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/src/Models.py" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/plant.py" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/main.py" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/tf_model.py" />
+        <option value="$PROJECT_DIR$/model.py" />
+        <option value="$PROJECT_DIR$/dense.py" />
+        <option value="$PROJECT_DIR$/wavelet.py" />
+        <option value="$PROJECT_DIR$/pre_WRNN_v2.py" />
+        <option value="$PROJECT_DIR$/pre_WRNN.py" />
+        <option value="$PROJECT_DIR$/plant.py" />
+        <option value="$PROJECT_DIR$/Result_compare.py" />
+        <option value="$PROJECT_DIR$/src/deep_rnn.py" />
+        <option value="$PROJECT_DIR$/Models.py" />
+        <option value="$PROJECT_DIR$/WRNN.py" />
+        <option value="$PROJECT_DIR$/src/core_nn.py" />
+        <option value="$PROJECT_DIR$/src/app_funcs.py" />
+        <option value="$PROJECT_DIR$/src/Models.py" />
+        <option value="/mnt/storage/codes/Harvey/RNN_Predict/src/plant.py" />
+        <option value="$PROJECT_DIR$/src/plant.py" />
+        <option value="$PROJECT_DIR$/src/main.py" />
+        <option value="/mnt/storage/codes/Harvey/RNN_Predict/src/Models.py" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-294" />
+    <option name="y" value="59" />
+    <option name="width" value="1278" />
+    <option name="height" value="727" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="RNN_Predict" type="b2602c69:ProjectViewProjectNode" />
+              <item name="RNN_Predict" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="RNN_Predict" type="b2602c69:ProjectViewProjectNode" />
+              <item name="RNN_Predict" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scratches" />
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../RL/nn/matlab_net.py" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src" />
+      <recent name="$PROJECT_DIR$" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Python.main">
+    <configuration name="app_funcs" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="RNN_Predict" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/app_funcs.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+    </configuration>
+    <configuration name="core_nn" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="RNN_Predict" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/core_nn.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+    </configuration>
+    <configuration name="main" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="RNN_Predict" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/main.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+    </configuration>
+    <configuration name="plant (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="RNN_Predict" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/plant.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+    </configuration>
+    <configuration name="pre_WRNN" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="RNN_Predict" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/pre_WRNN.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+    </configuration>
+    <list size="5">
+      <item index="0" class="java.lang.String" itemvalue="Python.main" />
+      <item index="1" class="java.lang.String" itemvalue="Python.core_nn" />
+      <item index="2" class="java.lang.String" itemvalue="Python.plant (1)" />
+      <item index="3" class="java.lang.String" itemvalue="Python.app_funcs" />
+      <item index="4" class="java.lang.String" itemvalue="Python.pre_WRNN" />
+    </list>
+    <recent_temporary>
+      <list size="5">
+        <item index="0" class="java.lang.String" itemvalue="Python.main" />
+        <item index="1" class="java.lang.String" itemvalue="Python.plant (1)" />
+        <item index="2" class="java.lang.String" itemvalue="Python.pre_WRNN" />
+        <item index="3" class="java.lang.String" itemvalue="Python.app_funcs" />
+        <item index="4" class="java.lang.String" itemvalue="Python.core_nn" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="b5ff450a-a5c3-4687-9ae2-f50b587a45a5" name="Default" comment="" />
+      <created>1511969075387</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1511969075387</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-294" y="59" width="1030" height="691" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.327551" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.08896797" sideWeight="0.5040816" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.30782917" sideWeight="0.49591836" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.28520498" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.41103202" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.75" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints-dialog>
+        <breakpoints-dialog />
+      </breakpoints-dialog>
+      <default-breakpoints>
+        <breakpoint type="python-exception">
+          <properties notifyOnTerminate="true" exception="BaseException">
+            <option name="notifyOnTerminate" value="true" />
+          </properties>
+        </breakpoint>
+      </default-breakpoints>
+      <option name="time" value="73" />
+    </breakpoint-manager>
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="15" column="31" lean-forward="false" selection-start-line="15" selection-start-column="31" selection-end-line="15" selection-end-column="31" />
+          <folding>
+            <element signature="e#112#135#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app_funcs.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="448">
+          <caret line="29" column="5" lean-forward="false" selection-start-line="29" selection-start-column="5" selection-end-line="29" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///mnt/storage/codes/Harvey/RNN_Predict/src/Models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3712">
+          <caret line="238" column="18" lean-forward="true" selection-start-line="238" selection-start-column="18" selection-end-line="238" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3840">
+          <caret line="246" column="24" lean-forward="true" selection-start-line="246" selection-start-column="24" selection-end-line="246" selection-end-column="24" />
+          <folding>
+            <element signature="e#160#183#0" expanded="true" />
+            <marker date="1516118225060" expanded="true" signature="315:10968" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WRNN.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1840">
+          <caret line="118" column="4" lean-forward="false" selection-start-line="118" selection-start-column="4" selection-end-line="123" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/plant.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3536">
+          <caret line="225" column="0" lean-forward="true" selection-start-line="225" selection-start-column="0" selection-end-line="225" selection-end-column="0" />
+          <folding>
+            <element signature="e#108#126#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/core_nn.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="736">
+          <caret line="47" column="0" lean-forward="true" selection-start-line="47" selection-start-column="0" selection-end-line="47" selection-end-column="0" />
+          <folding>
+            <element signature="e#98#121#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#112#135#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app_funcs.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="532">
+          <caret line="29" column="5" lean-forward="false" selection-start-line="29" selection-start-column="5" selection-end-line="29" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///mnt/storage/codes/Harvey/RNN_Predict/src/Models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1501">
+          <caret line="85" column="0" lean-forward="false" selection-start-line="85" selection-start-column="0" selection-end-line="85" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/plant.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="456">
+          <caret line="28" column="21" lean-forward="false" selection-start-line="28" selection-start-column="21" selection-end-line="28" selection-end-column="22" />
+          <folding>
+            <element signature="e#108#126#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/core_nn.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="20" selection-end-column="17" />
+          <folding>
+            <element signature="e#98#121#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="456">
+          <caret line="30" column="26" lean-forward="false" selection-start-line="30" selection-start-column="26" selection-end-line="30" selection-end-column="26" />
+          <folding>
+            <element signature="e#160#183#0" expanded="true" />
+            <marker date="1516118225060" expanded="true" signature="315:10968" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WRNN.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2185">
+          <caret line="118" column="4" lean-forward="false" selection-start-line="118" selection-start-column="4" selection-end-line="123" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#112#135#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app_funcs.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="532">
+          <caret line="29" column="5" lean-forward="true" selection-start-line="29" selection-start-column="5" selection-end-line="29" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/plant.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="456">
+          <caret line="28" column="21" lean-forward="false" selection-start-line="28" selection-start-column="21" selection-end-line="28" selection-end-column="22" />
+          <folding>
+            <element signature="e#108#126#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/core_nn.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="20" selection-end-column="17" />
+          <folding>
+            <element signature="e#98#121#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="456">
+          <caret line="30" column="26" lean-forward="true" selection-start-line="30" selection-start-column="26" selection-end-line="30" selection-end-column="26" />
+          <folding>
+            <element signature="e#160#183#0" expanded="true" />
+            <marker date="1516118225060" expanded="true" signature="315:10968" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WRNN.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2185">
+          <caret line="118" column="4" lean-forward="true" selection-start-line="118" selection-start-column="4" selection-end-line="123" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/plant.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1102">
+          <caret line="60" column="0" lean-forward="false" selection-start-line="60" selection-start-column="0" selection-end-line="60" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/model.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1102">
+          <caret line="63" column="35" lean-forward="true" selection-start-line="63" selection-start-column="35" selection-end-line="63" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../lib/python3.5/codecs.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="104">
+          <caret line="308" column="0" lean-forward="false" selection-start-line="308" selection-start-column="0" selection-end-line="308" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../lib/python3.5/site-packages/numpy/core/shape_base.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="229">
+          <caret line="353" column="0" lean-forward="false" selection-start-line="353" selection-start-column="0" selection-end-line="353" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lstm.py" />
+    <entry file="file://$PROJECT_DIR$/../RL/nn/matlab_net.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="237">
+          <caret line="94" column="18" lean-forward="false" selection-start-line="94" selection-start-column="18" selection-end-line="94" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tf_model.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="5" column="0" lean-forward="true" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/read_data.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pre_WRNN_v2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="17" column="32" lean-forward="false" selection-start-line="17" selection-start-column="32" selection-end-line="17" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Result_compare.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="5" column="0" lean-forward="true" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wavelet.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="380">
+          <caret line="27" column="16" lean-forward="true" selection-start-line="27" selection-start-column="16" selection-end-line="27" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/plant.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="680">
+          <caret line="65" column="13" lean-forward="false" selection-start-line="65" selection-start-column="4" selection-end-line="65" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/deep_rnn.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-152">
+          <caret line="7" column="14" lean-forward="true" selection-start-line="7" selection-start-column="6" selection-end-line="7" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dense.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="39" column="4" lean-forward="true" selection-start-line="39" selection-start-column="4" selection-end-line="41" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/model.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="182">
+          <caret line="47" column="17" lean-forward="true" selection-start-line="47" selection-start-column="17" selection-end-line="47" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pre_WRNN.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-257">
+          <caret line="36" column="36" lean-forward="false" selection-start-line="36" selection-start-column="36" selection-end-line="36" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///mnt/storage/codes/Harvey/RNN_Predict/src/plant.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="117">
+          <caret line="93" column="0" lean-forward="false" selection-start-line="93" selection-start-column="0" selection-end-line="93" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1298">
+          <caret line="197" column="76" lean-forward="false" selection-start-line="197" selection-start-column="76" selection-end-line="197" selection-end-column="76" />
+          <folding>
+            <element signature="e#160#183#0" expanded="true" />
+            <marker date="1516118225060" expanded="true" signature="315:10968" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WRNN.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="118" column="4" lean-forward="false" selection-start-line="118" selection-start-column="4" selection-end-line="123" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app_funcs.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="112">
+          <caret line="29" column="5" lean-forward="false" selection-start-line="29" selection-start-column="5" selection-end-line="29" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="704">
+          <caret line="65" column="64" lean-forward="true" selection-start-line="65" selection-start-column="64" selection-end-line="65" selection-end-column="64" />
+          <folding>
+            <element signature="e#112#135#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/plant.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2208">
+          <caret line="40" column="34" lean-forward="true" selection-start-line="40" selection-start-column="34" selection-end-line="40" selection-end-column="34" />
+          <folding>
+            <element signature="e#108#126#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/core_nn.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="432">
+          <caret line="51" column="15" lean-forward="true" selection-start-line="51" selection-start-column="15" selection-end-line="51" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///mnt/storage/codes/Harvey/RNN_Predict/src/Models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="32">
+          <caret line="242" column="65" lean-forward="true" selection-start-line="242" selection-start-column="65" selection-end-line="242" selection-end-column="65" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
